@@ -19,7 +19,7 @@ renderer = new THREE.WebGLRenderer({
 renderer.setClearColor( 0x000000, 0 );
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, window.innerHeight);
-camera.position.set(90, 40, -60);
+camera.position.set(90, 90, -60);
 
 renderer.render(scene, camera);
 
